@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Latihan 3</title>
+	<style type="text/css">
+		h1{
+			color: red;
+			font-family: arial;
+		}
+		h3{
+			font-family: arial;
+		}
+	</style>
+</head>
+<body>
+	<center>
+	<table width="50%" border="5">
+		<form action="" method="">
+			<tr>
+				<th style="height: 100px; background-color:lightskyblue;" colspan="2" color="red"><h1>Pendaftaran Kursus</h1></th>
+			</tr>
+			<tr bgcolor="gray" height="350">
+			<td>
+			<table border="0">
+			<tr>
+				<td><b><h3>Data Diri</h3></b></td>
+			</tr>
+			<tr>
+				<td><label>Nama:</label></td>
+					<td><input type="text" name="Nama" placeholder="Nama"></td>
+			</tr>
+			<tr>
+				<td><label>Nim:</label></td>
+					<td><input type="text" name="Nim" placeholder="Nim"></td>
+			</tr>
+			<tr>
+				<td><label>E-mail:</label></td>
+					<td><input type="email" name="email"></td>
+			</tr>
+			<tr>
+				<td><label>Tanggal Lahir:</label></td>
+					<td><input type="date" name="bday"></td>
+			</tr>
+			<tr valign="top">
+				<td><label>Jenis Kelamin</label></td>
+					<td>
+						<input type="radio" name="jenis_kelamin" value="L">Laki-laki<br>
+						<input type="radio" name="jenis_kelamin" value="P">Perempuan
+					</td>
+			</tr>
+			<tr valign="top">
+				<td><label>Pilih Program Kursus</label></td>
+				<td>
+					<input type="checkbox" name="kursus" value="C#">C#<br>
+					<input type="checkbox" name="kursus" value="Java">Java#<br>
+					<input type="checkbox" name="kursus" value="SQL">SQL<br>
+					<input type="checkbox" name="kursus" value="HTML dan PHP">HTML dan PHP
+				</td>
+			</tr>
+			<tr>
+				<td><label>Pilih Hari/ Jam Kursus</label></td>
+				<td>
+					<select name="Pilih Hari/Jam kursus">	
+					<option value="Senin-Rabu jam 08.00-10.00">Senin-Rabu jam 08.00-10.00</option>
+					<option value="Rabu-Jum'at jam 08.30-10.30">Rabu-Jum'at jam 08.30-10.30</option>
+					<option value="Sabtu jam 08.00-10.00">Sabtu jam 08.00-10.00</option>
+					</select>
+				</td>
+			</tr>
+			</table>
+		
+	    <!-- </td> -->
+		<!-- </tr> -->
+			<tr bgcolor="salmon"  >
+        		<td colspan="2" height="120px" valign="top">Komentar Anda<br>
+                    <textarea cols="40" rows="5"></textarea><br>
+                    <button type="reset" value="Reset">Reset</button>
+                    <button type="submit" value="Submit">Submit</button>
+                    <button type="cancel" value="Cancel">Cancel</button>
+        		</td>
+    		</tr>
+		</form>
+	</table>
+	</center>
+</body>
+</html>
